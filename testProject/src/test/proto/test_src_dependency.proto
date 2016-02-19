@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "com/example/tutorial/sample.proto";
+
+message TestMessage {
+  Msg msg = 1;
+}
